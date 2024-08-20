@@ -1,0 +1,28 @@
+# Simple Blog Management System
+
+This is a simple blog management system built with PHP and MySQL, 
+following Object-Oriented Programming (OOP) principles.
+ The system allows users to create, read,
+ update, and delete blog posts.
+
+ ## Features
+
+- **Create a Post**: Add new blog posts with title, content, and author.
+- **Read/View a Post**: View the details of a single blog post.
+- **Update a Post**: Edit an existing blog post.
+- **Delete a Post**: Remove a blog post from the database.
+- **List All Posts**: View a list of all blog posts.
+
+
+## Installation
+1. **Deploy to a Web Server**:
+   1 - Copy the project files to your web server directory (e.g., `htdocs` for XAMPP).
+   2 - Make sure your web server is running.
+2. **Access the Application**:
+    - Open your web browser and navigate to `http://localhost/your_file_name/task2`.
+    - From here, you can start creating, viewing, updating, and deleting blog posts.
+
+   .........
+   ********Note: The sql file (database.sql) is excuted #automaticly only one time when you open the project and
+   never excute again(inless you delete the database), if you like you can excute it in your SQL
+   client(e.g., phpMyAdmin).************
