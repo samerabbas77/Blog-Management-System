@@ -157,7 +157,7 @@
         {  
 
             // Prepare the SQL statement            
-            $sql = "UPDATE $db_name.posts SET title = ?, content = ?, author = ? WHERE id = ?";
+            $sql = "UPDATE posts SET title = ?, content = ?, author = ? WHERE id = ?";
            
             //excute the query
             $stmt = Database::query($sql, ['sssi', $title, $content, $author, $id]);
